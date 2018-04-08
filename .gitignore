@@ -1,0 +1,4 @@
+obj/*
+.vscode/*
+.vscode/tasks.json
+bin/*
