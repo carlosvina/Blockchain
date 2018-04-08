@@ -6,7 +6,9 @@ Simple .NET Core Web API application that retrieves a few parameters of all unsp
 
 ## Using Visual Studio Code
 
-Open project folder with Visual Studio Code and press F5. 
+* Open project folder with Visual Studio Code.
+* Select Debug view on left column (or Ctrl+Shift+D)
+* Click play button or hit F5
 
 Note: Make sure you have C# Extension installed
 
