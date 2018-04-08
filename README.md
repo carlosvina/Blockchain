@@ -2,7 +2,7 @@
 
 Simple .NET Core Web API application that retrieves a few parameters of all unspent transaction outputs of a given address.
 
-# How to run
+# How to run the App
 
 ## Using Visual Studio Code
 
@@ -14,12 +14,19 @@ Note: Make sure you have C# Extension installed
 
 ## Using Command Line
 
-Navigate to project folder and run the following command
+Navigate to project folder (Blockchain\Blockchain) and run the following command
 
 * dotnet run
 
+# How to run tests
 
-# How to use
+## Using Command Line
+
+Navigate to tests folder (Blockchain\Blockchain.Tests) and run the following command
+
+* dotnet test
+
+# How to use the App
 
 While app is running visit http://localhost:5000/address/$address in the browser or use external tools such as Postman or curl. 
 
