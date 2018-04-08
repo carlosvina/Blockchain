@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
-using Blockchain.Wrappers;
+using Blockchain.Services;
 using Blockchain.Models;
 using Newtonsoft.Json;
 
@@ -9,7 +9,7 @@ namespace Blockchain.Controllers
     [Route("[controller]")]
     public class AddressController : Controller
     {
-        private IBlockchainApiWrapper _blockChainApi = new BlockchainApiWrapper();
+        private IBlockchainApiService _blockChainApi = new BlockchainApiService();
 
         // GET /address
         [HttpGet("{address}")]
